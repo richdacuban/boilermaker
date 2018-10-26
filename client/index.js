@@ -16,3 +16,5 @@ render(
 
 // without redux store:
 // render(<div>Hello WORLD!</div>, document.getElementById('app'));
+
+//By wrapping our root level component in </Provider store={store}> we can now do mapStateToProps and mapDispatchToProps in order to pull in state and dispatch thunks into react.
